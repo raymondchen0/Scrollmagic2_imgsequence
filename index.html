@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>ScrollMagic Demo - The Basics</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:100|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script> 
+            <div style="height: 600px;"></div>
+              <div class="title-cube">visible</div>
+              <div style="height: 600px;"></div>
+
+            <svg version="1.1" class="start" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 500 700" style="enable-background:new 0 0 500 700;" xml:space="preserve">
+       
+       <g id="smallSquare">
+           <g>
+               <rect x="300.1" y="1.4" class="st0" width="99" height="99"/>
+               <path d="M398.6,1.9v98h-98v-98H398.6 M399.6,0.9h-100v100h100V0.9L399.6,0.9z"/>
+           </g>
+       </g>
+       <g id="mediumSquare">
+           <g>
+               <rect x="200.1" y="200.4" class="st0" width="194" height="199"/>
+               <path d="M393.6,200.9v198h-193v-198H393.6 M394.6,199.9h-195v200h195V199.9L394.6,199.9z"/>
+           </g>
+       </g>
+       <g id="largeSquare">
+           <g>
+               <rect x="100.1" y="500.4" class="st0" width="299" height="196"/>
+               <path d="M398.6,500.9v195h-298v-195H398.6 M399.6,499.9h-300v197h300V499.9L399.6,499.9z"/>
+           </g>
+       </g>
+       </svg>
+       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1365.8 768.2" style="enable-background:new 0 0 1365.8 768.2;" xml:space="preserve">
+<style type="text/css">
+	.white{fill:#FFFFFF;}
+</style>
+</svg>
+<div class="spacer s2" id="trigger1"></div>
+<div id="imagesequence">
+	<img id="myimg" src="svg/house_01.svg"><br>
+</div>
+<div class="spacer s2"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<!-- enables scrollMagic API -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+       <!-- enables scrollMagic's Indicators(turn this off before publishing) -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  <!-- link to the to the main.js file -->
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
