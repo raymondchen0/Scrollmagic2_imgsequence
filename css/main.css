@@ -45,5 +45,9 @@ svg{
 .start.end{
     width: 100%;
     transform: translateX(-50%);
-    
+}
+
+#myimg {
+    margin: -20vh;
+}
     

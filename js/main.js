@@ -53,17 +53,15 @@ var boxStack = new ScrollMagic.Scene({
 	var controller = new ScrollMagic.Controller();
 
 	// build scene
-	var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 300})
+	var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 2100})
 					.setTween(tween)
-					.addIndicators() // add indicators (requires plugin)
+					.addIndicators({
+						name: 'img sequenece',
+						colorTrigger: 'black',
+						colorStart: 'pink',
+						colorEnd: 'black'
+					}) // add indicators (requires plugin)
 					.addTo(controller);
-
-	// handle form change
-	$("form.move input[name=duration]:radio").change(function () {
-		scene.duration($(this).val());
-	});
-  
-  
 
 
 
