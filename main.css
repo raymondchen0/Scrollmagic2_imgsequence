@@ -1,0 +1,65 @@
+svg{
+    /* height:100vh; */
+}
+.title-cube {
+    background:teal;
+    margin: 0 auto;
+    display: block;
+    transition: 1s;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    opacity: 0;
+    width: 0%;
+    transform: translateX(20%)
+  }
+  .title-cube.show {
+    opacity:1;
+    width: 100%;
+    transform: translateX(60%);
+    text-align: left;
+    padding-left: 10px;
+  }
+
+#smallSquare{
+    fill:paleturquoise;
+}
+
+
+#mediumSquare{
+    fill:gray;
+}
+
+#largeSquare{
+    fill: teal;
+}
+
+.start{
+    width: 80%;
+    transform: translateY(120%);
+    transform: rotate(45deg);
+    transition: 5s;
+}
+
+.start.end{
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+#imagesequence {
+    background-color: aliceblue;
+}
+
+.buffer {
+    /* Start of pin and end of pin messages */
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    padding: 100px;
+}
+
+#myimg {
+    /* negative margin to push the div higher */
+    margin-top: -25vh; 
+}
